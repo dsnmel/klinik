@@ -28,7 +28,7 @@ Route::post('/farmasi/print', [farmasiController::class, 'cetak'])->name('farmas
 
 // Route untuk menerima data form farmasi (method POST)
 Route::post('/farmasi', [farmasiController::class, 'submit'])->name('farmasi.submit');
-Route::post('/arsip/{id}', [arsipController::class, 'arsip'])->name('arsip'); // Arsipkan pasien
+Route::post('/arsip/{id}', [arsipController::class, 'data'])->name('arsip'); // Arsipkan pasien
 Route::post('/dokter/hapus/{id}', [pasienController::class, 'hapus'])->name('dokter.hapus');
 Route::post('/farmasi/delete/{id}', [farmasiController::class, 'delete'])->name('farmasi.delete'); // Hapus di dokter.blade
 
