@@ -11,7 +11,4 @@
     "vite": "^6.0.0",
     "laravel-vite-plugin": "^1.1.0"
   },
-  "dependencies": {
-    // Dependencies lainnya
-  }
 }
