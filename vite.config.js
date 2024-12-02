@@ -8,13 +8,10 @@ export default defineConfig({
       refresh: true,
     }),
   ],
-});
-// vite.config.js
-export default {
   build: {
     rollupOptions: {
-      external: ['axios']  // Menambahkan axios sebagai modul eksternal
-    }
-  }
-}
+      external: ['axios'],  // Menambahkan axios sebagai modul eksternal
+    },
+  },
+});
 
