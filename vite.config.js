@@ -9,7 +9,7 @@ export default defineConfig({
     }),
   ],
   build: {
-    outDir: 'public/build', // Menentukan folder output build
+    outDir: 'dist', // Menentukan folder output build
     rollupOptions: {
       external: ['axios'], // Menambahkan axios sebagai modul eksternal
     },
